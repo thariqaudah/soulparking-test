@@ -1,10 +1,14 @@
 // Color theme variables
 $black: #4b4a4a;
 $orange: #f3bc55;
+$green: #1db331;
+$red: #db3131;
 
 // Main color
 $primary: $orange;
 $dark: $black;
+$success: $green;
+$danger: $red;
 
 // Body style variables
 $body-bg: #eee;
@@ -12,6 +16,11 @@ $body-color: $dark;
 
 // Font family
 $font-family-sans-serif: 'Poppins', sans-serif;
+
+// Cards
+$card-border-width: 0;
+$card-border-color: none;
+$card-border-radius: 8px;
 
 @import '_style';
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
