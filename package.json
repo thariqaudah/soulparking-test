@@ -1,0 +1,22 @@
+{
+  "name": "soulparking-website-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thariqaudah/soulparking-test.git"
+  },
+  "author": "Thariq Audah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thariqaudah/soulparking-test/issues"
+  },
+  "homepage": "https://github.com/thariqaudah/soulparking-test#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

@@ -1,0 +1,17 @@
+// Color theme variables
+$black: #4b4a4a;
+$orange: #f3bc55;
+
+// Main color
+$primary: $orange;
+$dark: $black;
+
+// Body style variables
+$body-bg: #eee;
+$body-color: $dark;
+
+// Font family
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+@import '_style';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

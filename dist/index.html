@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1ff25b95ec.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Soul Parking Management System</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+      <div class="container-fluid py-2 px-5">
+        <!-- Sidebar Toggler -->
+        <a class="text-white me-auto" href="#">
+          <small>
+            <i class="fas fa-chevron-left me-1"></i>
+            Tampilkan Menu
+          </small>
+        </a>
+        <!-- Menu -->
+        <form class="me-5">
+          <div class="input-group">
+            <select id="searchForm" class="form-select form-select-sm bg-white">
+              <option value="dki">DKI Jakarta</option>
+              <option value="jabar">Jawa Barat</option>
+              <option value="jatim">Jawa Timur</option>
+              <option value="kalsel">Kalimantan Selatan</option>
+            </select>
+            <button
+              class="input-group-text bg-primary text-white"
+              id="basic-addon2"
+            >
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+        </form>
+        <ul class="navbar-nav">
+          <!-- User menu -->
+          <li class="nav-item d-flex align-items-center">
+            <div class="user-img rounded-circle me-2">
+              <img
+                class="img-fluid"
+                src="./img/user-profile.jpg"
+                alt="user-profile"
+              />
+            </div>
+            <div
+              class="
+                user-info
+                d-flex
+                flex-column
+                justify-content-center
+                align-items-start
+              "
+            >
+              <h6 class="text-white mb-0">Husein Damar</h6>
+              <small class="text-white-50 fst-italic">Super Admin</small>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </body>
+</html>
